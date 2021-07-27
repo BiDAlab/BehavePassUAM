@@ -1,3 +1,5 @@
+![](img/shield.png)
+
 # BehavePassUAM
 BehavePassUAM has been developed by the BiDA-Lab research group of the Autonomous University of Madrid for the acquisition of a database that allows studying the interaction with mobile devices. The stored data does not include personal information and will be used for research purposes.
 
