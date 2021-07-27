@@ -9,4 +9,4 @@ Participate and enter in the raffle of an iPad!
 
 
 ## **CONTACT**
-For further information on the project, please contact at: bidalabuam@gmal.com
+For further information on the project, please contact at: bidalabuam@gmail.com
