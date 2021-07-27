@@ -19,15 +19,13 @@
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
   <body>
     <!-- navbar-->
     <header class="header">
       <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
+          <a class="navbar-brand" href="#">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -42,7 +40,7 @@
       <div class="container">
         <div class="row py-5">
           <div class="col-lg-5 py-5">
-            <h1 class="font-weight-bold">Download BehavePassUAM</h1>
+            <h1 class="font-weight-bold" style="color: #747c92;">Download BehavePassUAM</h1>
             <p class="my-4 text-muted">Participate in a research project with the UAM and win an iPad!</p>
             <ul class="list-inline mb-0">
               <li class="list-inline-item mb-2 mb-lg-0">
@@ -106,24 +104,32 @@
             </div>
           </div>
           <div class="row pb-5">
-            <h2  style="text-align: center;">
+            <h2  style="text-align: center; color: #747c92;">
               In addition, the more you share the app with your contacts, the more chances you will have to win the iPad.
             </h2>
           </div>
         </div>
       </section>
     </section>
+
     <footer class="with-pattern-1 position-relative">
       <div class="container section-padding-y">
-        <div class="row">
-          <div class="col-lg-5">
-            <h2 class="h5 mb-4">Contact Info</h2>
+        <div class="row" style="display: flex; align-items: center;">
+          <div class="col-lg-3">
+            <h2 class="h5 mb-4">Contact Information</h2>
             <ul class="list-unstyled mr-4 mb-3">
+              <li class="mb-2 text-muted"><a href="http://atvs.ii.uam.es/atvs/">ATVS</a></li>
               <li class="mb-2 text-muted">Universidad Autónoma de Madrid, BiDA Lab</li>
               <li class="mb-2"><a class="footer-link" href="mailto:Nova@example.com">bidalabuam@gmail.com</a></li>
             </ul>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-3" style="display: flex; justify-content: center;">
+            <img src="img/logo_uam.png" style="width: 250px; height: 50px;">
+          </div>
+          <div class="col-lg-3" style="display: flex; justify-content: center;">
+            <a href="http://atvs.ii.uam.es/atvs/"><img src="img/logo_atvs.gif" style="width: 100px;"></a>
+          </div>
+          <div class="col-lg-3" style="display: flex; justify-content: center;">
             <img src="img/logo_bidaES.png" style="width: 300px;">
           </div>
         </div>
@@ -137,31 +143,6 @@
     <!-- JavaScript files-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script>
-      // ------------------------------------------------------- //
-      //   Inject SVG Sprite - 
-      //   see more here 
-      //   https://css-tricks.com/ajaxing-svg-sprite/
-      // ------------------------------------------------------ //
-      function injectSvgSprite(path) {
-      
-          var ajax = new XMLHttpRequest();
-          ajax.open("GET", path, true);
-          ajax.send();
-          ajax.onload = function(e) {
-          var div = document.createElement("div");
-          div.className = 'd-none';
-          div.innerHTML = ajax.responseText;
-          document.body.insertBefore(div, document.body.childNodes[0]);
-          }
-      }
-      // this is set to BootstrapTemple website as you cannot 
-      // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
-      // while using file:// protocol
-      // pls don't forget to change to your domain :)
-      injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg'); 
-      
-    </script>
     <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </body>
