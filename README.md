@@ -2,7 +2,7 @@
 
 # BehavePassUAM
 
-## **The iPad raffle will be held on September 20, 2021!**
+## **(NEWS) Deadline extended for sessions capturing to 22 September at 23:59 CET Time. The iPad raffle will be held on September 23, 2021!**
 
 BehavePassUAM has been developed by the BiDA-Lab research group of the Autonomous University of Madrid for the acquisition of a database that allows studying the interaction with mobile devices. The stored data does not include personal information and will be used for research purposes.
 
