@@ -2,7 +2,7 @@
 
 # BehavePassUAM
 
-## **(NEWS) Deadline extended for sessions capturing to 22 September at 23:59 CET Time. The iPad raffle will be held on September 23, 2021 at 13:00 CET Time!**
+## **(NEWS) Results of the iPad raffle helded on 23 September, 2021**
 
 ##### Link to Youtube channel: [LINK](https://www.youtube.com/channel/UCndC3M4v2bwBlZCq34whu7A)
 
