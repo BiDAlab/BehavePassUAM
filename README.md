@@ -12,7 +12,7 @@
 
 ##### Link to the second part of the iPad raffle: [LINK](https://www.youtube.com/watch?v=1tvDKAFdLOU&t=1s)
 
-### <span style="color:#747c92;">Winner of the iPad raffle:</span> **ES1620631283896**
+### Winner of the iPad raffle:**ES1620631283896**
 
 #### You can see the winners here: [https://app-sorteos.com/w/MOGG28](https://app-sorteos.com/w/MOGG28)
 
